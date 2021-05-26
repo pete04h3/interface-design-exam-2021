@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* audio  */
+audio{
+    margin-top: 2rem;
+    filter: invert(1);
+}
+
+
+
+
+/* SPLASH SECTION START  */
+
+#articlesplashsection {
+    width: 100%;
+    height: 35vh;
+    background-image: url(/img/guitar.png);
+    background-position: 41% 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+/* .articlesplashwrapper {
+    position: relative;
+    top: 5rem;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1305px;
+    margin: 0 auto;
+    
+  } */
+  
+  .articlesplashwrapper .image {
+    width: 100%;
+    height: 100%;
+  }
+  
+ 
+  .articlesplashwrapper .text {
+    font-family: Arial;
+    font-size: 1em;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.5em rgb(0 0 0 / 50%);
+    margin: 0;
+    position: absolute;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    display: grid;
+    grid-gap: 2rem;
+  }
+   /* SPLASH SECTION END  */
+
+   /* 5minuteread imgs */
+   .fiveminreadwrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 30%;
+    float: right;
+
+   }
+
+   /*Article*/
+
+   article p{
+    display: inline-block;
+    text-align: justify;
+   }
