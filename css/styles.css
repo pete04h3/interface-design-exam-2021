@@ -385,7 +385,8 @@
     .splashwrapper .text{
         text-align: left;
         grid-gap: 1rem;
-        width: 80%;
+        width: 100%;
+        margin-left: 5rem;
     }
 
     .splashwrapper .btn {
