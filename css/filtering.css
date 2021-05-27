@@ -68,10 +68,14 @@
     text-align: center;
     margin-bottom: 2rem;
   }
-  
-  .filters * {
+
+
+
+.filters * {
     display: inline-block;
   }
+  
+  
   
   .filters label {
     padding: 0.5rem 1rem;
@@ -96,6 +100,8 @@
     grid-gap: 1.5rem;
     grid-template-columns: repeat(4, 1fr);
   }
+
+  
   
   .posts .post {
     background: #fafafa;
@@ -170,6 +176,14 @@
   
   /* MEDIA QURIES
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+  @media screen and (max-width: 555px) {
+    .filters * {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+  }
   @media screen and (max-width: 900px) {
     .posts {
       grid-template-columns: repeat(3, 1fr);
@@ -191,3 +205,5 @@
       grid-template-columns: repeat(1, 1fr);
     }
   }
+
+  
