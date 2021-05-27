@@ -6,9 +6,61 @@
 
 /* audio  */
 audio{
-    margin-top: 2rem;
-    filter: invert(1);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  filter: invert(1);
 }
+
+/* video */
+
+video {
+  /* override other styles to make responsive */
+  width: 100%    !important;
+  height: auto   !important;
+  margin-top: 1rem;
+}
+/*demotrack box */
+.demotrackh1{
+  margin-top: 1rem;
+}
+/* structure */
+.container {
+  max-width: 1335px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.grid-item {
+  height: 380px;
+  /* flex-basis: 20%; */
+  flex-basis: 100%;
+  width: 250px;
+  position: relative;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+article{
+  margin-left: 11px;
+  margin-right: 11px;
+}
+/*images*/
+
+.midsection-image {
+  background-image: url(/img/rapper.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.splash-image {
+  background-image: url(/img/guitar.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 
 
 
@@ -17,25 +69,13 @@ audio{
 
 #articlesplashsection {
     width: 100%;
-    height: 35vh;
-    background-image: url(/img/guitar.png);
+    height: auto;
     background-position: 41% 70px;
     background-repeat: no-repeat;
     background-size: contain;
     font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
-/* .articlesplashwrapper {
-    position: relative;
-    top: 5rem;
-    width: 100%;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1305px;
-    margin: 0 auto;
-    
-  } */
+
   
   .articlesplashwrapper .image {
     width: 100%;
@@ -65,7 +105,8 @@ audio{
     flex-direction: row;
     justify-content: space-evenly;
     width: 30%;
-    float: right;
+    margin-top: 0.7rem;
+    margin-left: 0rem;
 
    }
 
@@ -74,4 +115,190 @@ audio{
    article p{
     display: inline-block;
     text-align: justify;
+    width: 98%;
    }
+
+
+   /*MEDIA QUERIES*/
+   @media only screen and (min-width: 280px) {
+   #articlesplashsection {
+    width: 100%;
+    height: auto;
+   }
+  }
+   @media only screen and (min-width: 320px) {
+
+  
+
+  #articlesplashsection {
+    width: 100%;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 360px) {
+  .fiveminreadwrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 27%;
+    margin-top: 0.7rem;
+    margin-left: 0rem;
+}
+
+#articlesplashsection {
+  width: 100%;
+  height: auto;
+}
+}
+
+@media only screen and (min-width: 375px){
+#articlesplashsection {
+    width: 100%;
+    height: auto;
+}
+}
+
+@media only screen and (min-width: 411px) {
+  #articlesplashsection {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+   @media only screen and (min-width: 670px) {
+   #articlesplashsection {
+    width: 100%;
+    height: auto;
+    background-position: 41% 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.grid-item {
+  height: 435px;
+  /* flex-basis: 20%; */
+  flex-basis: 100%;
+  width: 250px;
+  position: relative;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+
+article h1{
+  font-size: 4rem;
+}
+article strong{
+  font-size: larger;
+}
+
+article p{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+
+.fiveminreadwrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 14%;
+    margin-top: 1.7rem;
+    margin-left: 0rem;
+}
+
+.breadcrumb-items{
+  font-size: larger;
+  font-weight: 600;
+}
+
+
+   }
+
+   @media only screen and (min-width: 768px){
+.fiveminreadwrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 12%;
+  margin-top: 1.7rem;
+  margin-left: 0rem;
+}
+
+#articlesplashsection {
+  width: 100%;
+  height: auto;
+}
+   }
+
+   @media only screen and (min-width: 800px){
+.fiveminreadwrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 11%;
+    margin-top: 1.7rem;
+    margin-left: 0rem;
+}
+
+   }
+
+@media only screen and (min-width: 1024px){
+.fiveminreadwrapper {
+  
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 9%;
+    /* transform: scale(2); */
+    margin-top: 2.7rem;
+    margin-left: 0rem;
+}
+
+
+article{
+  max-width: 960px;
+  display: block;
+  margin: 0 auto;
+}
+
+.grid-item {
+  height: 600px;
+  /* flex-basis: 20%; */
+  flex-basis: 100%;
+  width: 250px;
+  position: relative;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#articlesplashsection {
+  width: 100%;
+  height: auto;
+ /*  background-image: url(/img/guitar.png); */
+  background-position: 41% 70px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+}
+
+@media only screen and (min-width: 1100px){
+#articlesplashsection {
+    width: 100%;
+    height: auto;
+    /* background-image: url(/img/guitar.png); */
+    background-position: 41% 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+}
