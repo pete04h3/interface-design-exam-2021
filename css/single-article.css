@@ -190,7 +190,8 @@ article{
 
 
 article h1{
-  font-size: 4rem;
+  font-size: 2.5rem;
+  text-align: left;
 }
 article strong{
   font-size: larger;
