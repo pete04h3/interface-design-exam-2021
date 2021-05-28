@@ -46,8 +46,9 @@
 
 
  .btn{
-    border: 2px solid purple;
-    background: purple;
+    border: none;
+    background: rgb(255,0,99);
+    background: linear-gradient(90deg, rgba(255,0,99,1) 0%, rgba(255,0,99,0.33) 0%, rgba(181,0,119,1) 40%);
     border-radius: 50px;
     padding: 1rem;
     width: 50%;
@@ -65,8 +66,9 @@
 }
 
  .cta-btn{
-  border: 2px solid purple;
-  background: purple;
+  border: none;
+  background: rgb(255,0,99);
+  background: linear-gradient(90deg, rgba(255,0,99,1) 0%, rgba(255,0,99,0.33) 0%, rgba(181,0,119,1) 40%);
   border-radius: 50px;
   padding: 1rem;
   width: 50%;
@@ -468,8 +470,9 @@ background: linear-gradient(90deg, rgba(255,0,99,1) 0%, rgba(70,0,184,0.05) 0%, 
     }
 
     .splashwrapper .btn {
-        border: 2px solid purple;
-        background: purple;
+        border: none;
+        background: rgb(255,0,99);
+        background: linear-gradient(90deg, rgba(255,0,99,1) 0%, rgba(255,0,99,0.33) 0%, rgba(181,0,119,1) 40%);
         border-radius: 50px;
         padding: 1rem;
         width: 20%;
@@ -492,8 +495,9 @@ background: linear-gradient(90deg, rgba(255,0,99,1) 0%, rgba(70,0,184,0.05) 0%, 
     }
 
     .cta-btn{
-      border: 2px solid purple;
-      background: purple;
+      border: none;
+      background: rgb(255,0,99);
+      background: linear-gradient(90deg, rgba(255,0,99,1) 100%, rgba(255,0,99,0.33) 0%, rgba(181,0,119,1) 40%);
       border-radius: 50px;
       padding: 1rem;
       width: 50%;
