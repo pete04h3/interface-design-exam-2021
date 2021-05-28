@@ -5,6 +5,27 @@
 
 }
 
+.searchbar{
+  display: none;
+}
+
+.searchButton {
+    display: none;
+    position: fixed;
+    top: 1.05rem;
+    left: 210px;
+    width: 41px;
+    height: 36px;
+    border: none;
+    background: transparent;
+    text-align: center;
+    color: black;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
 .heroh2{
   color: white;
 }
@@ -239,20 +260,37 @@ background: linear-gradient(90deg, rgba(255,0,99,1) 0%, rgba(70,0,184,0.05) 0%, 
     position: relative;
   
   }
+
+  .grid-item-container-rex {
+    height: 118%;
+    width: 100%;
+    position: relative;
+}
   
   .grid-image-top {
     
       height: 100%;
       width: 100%;
-      background: purple;
+      background: rgba(62,3,49, 0.8);
       filter: opacity(0.5);
       background-size: cover;
     
+  }
+
+  .grid-image-top-rex{
+    height: 100%;
+    width: 100%;
+    background: rgba(62,3,49, 0.8);
+    filter: opacity(0.5);
+    background-size: cover;
   }
   
   
   .rex-ray-image {
     background-image: url(/img/Frame120.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
  
   }
   
@@ -469,8 +507,31 @@ background: linear-gradient(90deg, rgba(255,0,99,1) 0%, rgba(70,0,184,0.05) 0%, 
     .grid-item {
       flex-basis: 33.33%;
     }
+
+    #searchbar-placement {
+      display: none;
+    }
+
+    .searchButton{
+      display: block;
+    }
+
+    .searchbar{
+      border-radius: 50px;
+      width: 20%;
+      border: 2px solid #ff7b92;
+      font-size: 0.7rem;
+      padding: 10px 20px;
+      margin: 0 auto;
+      margin-top: 0.6rem;
+      margin-left: 13rem;
+      display: block;
+      position: absolute;
+      text-align: center;
   }
-  
+
+
+}
 
  
 

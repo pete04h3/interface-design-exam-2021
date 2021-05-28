@@ -59,6 +59,7 @@ article{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 45% 71px;
 }
 
 
@@ -116,6 +117,8 @@ article{
     display: inline-block;
     text-align: justify;
     width: 98%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
    }
 
 
