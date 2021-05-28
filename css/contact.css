@@ -103,6 +103,11 @@
     padding: 20px;
   }
 
+  .btn-gradient{
+    background: rgb(255,0,99);
+    background: linear-gradient(90deg, rgb(67, 0, 160) 15%, rgba(71, 0, 184, 0.479) 30%, rgba(255,0,99) 100%);
+  }
+
   .btn{
     width: 30%;
     display: block;
